@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.optum.propel.rulesengine</groupId>
+  <artifactId>credentialing-rules-models</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0.0</version>
+  <name>credentialing-rules-models</name>
+
+  <properties>
+    <junit.version>4.12</junit.version>
+    <lombok.version>1.18.12</lombok.version>
+  </properties>
+
+  <dependencies>
+    <!-- junit dependency starts -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- junit dependency ends -->
+    <!-- lombok dependency starts -->
+<!--    <dependency>-->
+<!--      <groupId>org.projectlombok</groupId>-->
+<!--      <artifactId>lombok</artifactId>-->
+<!--      <version>${lombok.version}</version>-->
+<!--    </dependency>-->
+    <!-- lombok dependency ends -->
+
+  </dependencies>
+</project>
